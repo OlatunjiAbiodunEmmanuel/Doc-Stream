@@ -1,9 +1,6 @@
 import { liveblocks } from "@/lib/liveblocks";
 import { getUserColor } from "@/lib/utils";
 import { currentUser } from "@clerk/nextjs/server";
-import { colors } from "@clerk/themes/dist/clerk-js/src/ui/foundations/colors";
-import { Liveblocks } from "@liveblocks/node";
-import { info } from "console";
 import { redirect } from "next/navigation";
 
 

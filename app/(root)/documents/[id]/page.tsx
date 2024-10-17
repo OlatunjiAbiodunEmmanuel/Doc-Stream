@@ -1,6 +1,4 @@
 import CollaborativeRoom from "@/components/CollaborativeRoom";
-import { Editor } from "@/components/editor/Editor";
-import Header from "@/components/Header";
 import { getDocument } from "@/lib/actions/room.action";
 import { getClerkUsers } from "@/lib/actions/user.action";
 import { currentUser } from "@clerk/nextjs/server";
