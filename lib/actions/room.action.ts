@@ -96,7 +96,7 @@ try {
       return parseStringify(room)
     } catch (error) {
     
-      console.log(`Error happened while updating a room:$(error)`)
+      console.log(`Error happened while updating a room:${error}`)
     }
   }
 
